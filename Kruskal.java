@@ -29,8 +29,7 @@ public class Kruskal {
     int find(subset subsets[], int i)
     {
         if (subsets[i].parent != i)
-            subsets[i].parent
-                = find(subsets, subsets[i].parent);
+            subsets[i].parent = find(subsets, subsets[i].parent);
  
         return subsets[i].parent;
     }
