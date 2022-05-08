@@ -5,8 +5,8 @@ public class InvertingBST {
 
     //Template to create a tree
     class Node{
-        Node left,right;
-        int data;
+        private Node left,right;
+        private int data;
         Node(int value){
             this.data = value;
             left=right=null;
@@ -22,7 +22,7 @@ public class InvertingBST {
     }
 
     // Adding new elements to the tree
-    void add(Node node,int value){
+    protected void add(Node node,int value){
         if(value<node.data){
             if(node.left==null){
                 System.out.println(value+" added to the left of "+node.data);
@@ -42,7 +42,7 @@ public class InvertingBST {
     }
     
     // Method for inorder traversal of BST
-    void inorder(Node node){
+    protected void inorder(Node node){
         if(node==null) 
             return;
         inorder(node.left);
@@ -51,7 +51,7 @@ public class InvertingBST {
     }
    
     // Method to invert a binary tree
-    Node invert(Node node) 
+    protected Node invert(Node node) 
 	{ 
 		if (node == null) 
 			return node; 
