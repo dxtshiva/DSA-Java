@@ -1,4 +1,5 @@
-import java.util.Stack;
+// Inverting a BST is a process of creating mirror image of the tree. It involves swapping 
+// the left and right child to create the final tree
 
 public class InvertingBST {
 
@@ -55,7 +56,7 @@ public class InvertingBST {
 		if (node == null) 
 			return node; 
 
-		// Recursevilly call the invert() for left and right child
+		// Recursevilly call the invert() for left and right child nodes to swap their values 
 		Node left = invert(node.left); 
 		Node right = invert(node.right); 
 
@@ -71,6 +72,7 @@ public class InvertingBST {
 
         // Initialize the object of tree
         InvertingBST tree = new InvertingBST(13);
+
         tree.add(tree.root, 12);
         tree.add(tree.root, 10);
         tree.add(tree.root, 4);
