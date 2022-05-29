@@ -5,14 +5,14 @@ package Mathematics;
 public class Palindrome {
     public static void main(String[] args) {
         int num = 45654;
-        int y =num, rev = 0;
+        int temp =num, rev = 0;
         
-        while(num>0){
-            rev = rev*10 + num%10;
-            num/=10;
+        while(temp>0){
+            rev = rev*10 + temp%10;
+            temp/=10;
         }
 
-        if(y==rev)
+        if(num==rev)
             System.out.println("Palindrome");
         else
             System.out.println("Not Palindrome");
