@@ -1,3 +1,4 @@
+package Trees;
 public class BSTCreation {
     class Node{
         int data;

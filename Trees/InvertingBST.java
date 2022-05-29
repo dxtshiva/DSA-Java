@@ -1,3 +1,4 @@
+package Trees;
 // Inverting a BST is a process of creating mirror image of the tree. It involves swapping 
 // the left and right child to create the final tree
 

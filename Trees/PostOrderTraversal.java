@@ -1,3 +1,4 @@
+package Trees;
 public class PostOrderTraversal {
    //Node class to create the nodes
    class Node{

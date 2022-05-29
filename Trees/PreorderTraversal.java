@@ -1,3 +1,5 @@
+package Trees;
+
 public class PreorderTraversal {
 //Node class to create the nodes
 class Node{

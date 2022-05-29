@@ -1,3 +1,4 @@
+package Trees;
 public class DescendingTreeTraversal {
 //Node class to create the nodes
 class Node{

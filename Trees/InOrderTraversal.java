@@ -1,4 +1,6 @@
-// Program fro InOrder traversal a BST  
+package Trees;
+
+// Program for InOrder traversal a BST  
 
 public class InOrderTraversal {
 
