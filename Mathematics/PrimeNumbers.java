@@ -54,7 +54,7 @@ public class PrimeNumbers {
             System.out.println("Not Prime");
 
         // Method 3: USing the concept of filtering. In this concept we know that any number
-        // that is not divisible by 2 will not be divisible by any multiple of. Also we know
+        // that is not divisible by 2 will not be divisible by any multiple of 2. Also we know
         // that 3 is the smallest odd prime and every 3rd number is divisible by 3. Hence we
         // cross that out as well. Now we begin our loop with 5 and check only for odd numbers
         // because every third number is multiple of 3 and all even numbers cannot be prime.
