@@ -26,7 +26,7 @@ public class PrimeFactors {
             }
         }
         if(num>1)
-            System.out.println(num);
+            System.out.print(num);
     }
 
     // Function for method 3
@@ -52,10 +52,10 @@ public class PrimeFactors {
             }
         }
         if(num>3)
-            System.out.println(num);
+            System.out.print(num);
     }
     public static void main(String[] args) {
-        int num =450;
+        int num =470;
         
         //Method 1: Using iteration
         for(int i=2;i<num;i++){
